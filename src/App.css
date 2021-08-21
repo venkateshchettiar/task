@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: grey;
+  color: #fff;
 }
 
 .App-logo {
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#myInput {
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+#btn {
+  background: transparent;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  outline: none;
 }
